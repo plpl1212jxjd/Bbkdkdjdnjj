@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 import uuid
 
-TOKEN = "7009538858:AAGUTQCy9h7nwe91KQj_OSdBx3pEw_-X_gI"
+TOKEN = "7111419198:AAFcCLkJH-Zv_SU40SsG8tAUrNhpQiKUjOo"
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text("مرحبًا! قم بإرسال أي نص لوضعه في ملف بايثون.")
